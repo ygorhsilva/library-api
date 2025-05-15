@@ -1,0 +1,52 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Ignorar logs e arquivos temporários ###
+
+*.log 
+*.tmp
+
+### Ignorar dependências locais ###
+
+dependency-reduced-pom.xml
+
+### Ignorar arquivos de configuração sensíveis ###
+
+application.properties 
+application.yml
+
+### Ignorar volumes do Docker ###
+
+docker-compose.yml
